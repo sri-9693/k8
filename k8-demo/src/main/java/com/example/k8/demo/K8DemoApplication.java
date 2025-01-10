@@ -22,4 +22,5 @@ public class K8DemoApplication {
 		return "You have deployed your application to kubernetes";
 	}
 
+
 }
