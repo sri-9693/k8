@@ -17,7 +17,12 @@ public class K8DemoApplication {
 		SpringApplication.run(K8DemoApplication.class, args);
 	}
 	
-	@GetMapping("/message")
+	@GetMapping("/docker")
+	public String getGreetings() {
+		return "You have deployed your application to docker";
+	}
+	
+	@GetMapping("/kubernetes")
 	public String getMessage() {
 		return "You have deployed your application to kubernetes";
 	}
