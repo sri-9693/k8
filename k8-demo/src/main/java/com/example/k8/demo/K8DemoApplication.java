@@ -26,6 +26,11 @@ public class K8DemoApplication {
 	public String getMessage() {
 		return "You have deployed your application to kubernetes";
 	}
+	
+	@GetMapping("/prolifics")
+	public String getDetails() {
+		return "Welcome to prolifics";
+	}
 
 
 }
