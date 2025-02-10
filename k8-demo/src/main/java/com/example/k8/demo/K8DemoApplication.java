@@ -31,6 +31,11 @@ public class K8DemoApplication {
 	public String getDetails() {
 		return "Welcome to prolifics";
 	}
+	
+	@GetMapping("/Hello")
+	public String getHi() {
+		return "Hi";
+	}
 
 
 }
